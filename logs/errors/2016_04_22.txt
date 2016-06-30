@@ -1,0 +1,18 @@
+Login failed. 
+Merge required for accounts[5367fd6d1c67d1a4859d30e7,55e47af243868c1100927bba] 
+                            prateek@prateekgupta.org,prateek-gupta@pluralsight.com
+GET /auth/github/callback?code=baab85dc0314f6c1fc69
+172.9.163.104, 199.27.128.116
+anonymous Lm1_lAl9ELpSi6AtbXWqrYAPjfDiQ5tY
+ << https://www.airpair.com/javascript/posts/the-legend-of-canvas
+ isBot:false:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+
+ Error: Login failed. Merge required for AirPair accounts[5367fd6d1c67d1a4859d30e7,55e47af243868c1100927bba] associated with prateek@prateekgupta.org,prateek-gupta@pluralsight.com
+    at Error (native)
+    at /app/server/services/auth.js:212:15
+    at /app/node_modules/meanair-model/lib/daMongoose.js:79:9
+    at Query.<anonymous> (/app/node_modules/meanair-model/node_modules/mongoose/lib/query.js:2119:28)
+    at /app/node_modules/meanair-model/node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /app/node_modules/meanair-model/node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:408:9)
+    at process._tickDomainCallback (node.js:378:13)
